@@ -1,10 +1,12 @@
-def basicfunction(x)
-    new_number = x(x + x)
+def basic_function(x):
+    new_number = x*(x + x)
     return new_number
+
 
 def main():
     print("Hello World!")
-    print(basicfunction(5))
+    print(basic_function(5))
+
 
 if __name__ == "__main__":
     main()
